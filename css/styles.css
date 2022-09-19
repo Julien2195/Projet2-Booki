@@ -17,7 +17,7 @@ a {
     color: #000;
 }
 
-header img,
+header,
 main {
     padding: 20px;
 }
@@ -30,7 +30,7 @@ header {
 }
 
 header img {
-    width: 190px;
+    width: 130px;
 }
 
 header ul {
@@ -219,6 +219,7 @@ section {
 /* //////////////////////////////////////// HEBERGEMENT ///////////////////////////////////// */
 
 
+
 #hebergement {
     background-color: #f2f2f2;
     width: 875px;
@@ -372,7 +373,6 @@ section {
 
 #section_activites h4 {
     font-size: 1.4em;
-    margin-top: 50px;
 
 }
 
@@ -489,6 +489,7 @@ footer a {
     }
 
 
+
     /* ///////////////////// HEADER///////////////////  */
     header {
         display: flex;
@@ -582,9 +583,8 @@ footer a {
     #populaire,
     #section_activites {
         width: 100%;
-        border-radius: 0;
         padding: 20px;
-
+        margin-top: 20px;
     }
 
     .cards_hebergement {
@@ -659,7 +659,7 @@ footer a {
     /* FOOTER */
 
     footer {
-        padding: 30px;
+        padding: 20px 50px;
     }
 
     .footer_menu {
@@ -672,12 +672,22 @@ footer a {
 /* ///////////FORMAT TELEPHONE///////////// */
 @media screen and (max-width: 768px) {
 
+    header,
+    main {
+        padding: 0;
+    }
+
     .filtre_organisation {
         margin-bottom: 15px;
     }
 
     #hebergement {
         background-color: #fff;
+        border-radius: 0;
+    }
+
+    #populaire {
+        border-radius: 0;
     }
 
 
@@ -696,10 +706,13 @@ footer a {
 
     }
 
-
-
     #filtres {
         justify-content: flex-start;
+    }
+
+    #filtres,
+    .infos_logement {
+        padding: 0 20px;
     }
 
     .global_filtre {
@@ -708,4 +721,7 @@ footer a {
 
     }
 
+    footer {
+        padding: 20px;
+    }
 }
