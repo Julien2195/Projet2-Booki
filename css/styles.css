@@ -6,7 +6,7 @@
 
 body {
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1400px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -305,7 +305,7 @@ section {
 
 #populaire {
     background-color: #f2f2f2;
-    width: 380px;
+    width: 500px;
     padding: 40px 17px 40px 17px;
     border-radius: 15px;
 }
@@ -424,7 +424,6 @@ section {
 footer {
     margin-top: 70px;
     background-color: #f2f2f2;
-    max-width: 1350px;
     height: auto;
     padding: 25px;
     display: flex;
