@@ -52,7 +52,7 @@ header li a {
 
 header li a:hover {
     border-top: 3px solid blue;
-    padding-top: 32px;
+    padding-top: 33px;
     color: #0065fc;
     border-color: #0065fc;
 
@@ -83,6 +83,11 @@ h1 {
 
 }
 
+form {
+    display: flex;
+    align-items: center;
+}
+
 .fa-location-dot {
     font-size: 17px;
     background-color: #f2f2f2;
@@ -109,7 +114,8 @@ h1 {
 
 .search-button-text {
     background-color: #0065fc;
-    padding: 12px;
+    padding: 0 12px;
+    height: 45px;
     color: white;
     border: none;
     border-radius: 0px 15px 15px 0;
@@ -117,8 +123,11 @@ h1 {
     cursor: pointer;
 }
 
+.search_btn {
+    display: none;
+}
+
 .fa-search {
-    visibility: hidden;
     padding: 14px;
     border: none;
     cursor: pointer;
@@ -534,22 +543,25 @@ footer a {
         justify-content: center;
     }
 
+    .search-button-text {
+        display: none;
+    }
+
+    .search_btn {
+        display: initial;
+    }
+
     .fa-search {
-        visibility: visible;
         background: #0065fc;
         padding: 14px;
         border-radius: 15px;
         color: #fff;
     }
 
-    .search-button-text {
-        visibility: hidden;
-    }
+
 
     #filtres {
         flex-wrap: wrap;
-        justify-content: center;
-
         margin-top: 20px;
     }
 
