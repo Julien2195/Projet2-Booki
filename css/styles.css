@@ -694,6 +694,14 @@ footer a {
         flex-direction: column-reverse;
     }
 
+    .card_organisation2 {
+        padding: 12px 17px 0;
+    }
+
+    .card_pop {
+        line-height: 1.2;
+    }
+
     .card_pop img {
         width: 150px;
     }
